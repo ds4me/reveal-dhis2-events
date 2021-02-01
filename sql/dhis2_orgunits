@@ -1,0 +1,12 @@
+
+CREATE TABLE namibia_prod.dhis2_orgunits
+(
+    id serial not mull,
+    dhis_orgunit_uid character varying(50),
+    dhis_orgunit_name character varying(50),
+    reveal_uid character varying(50),
+    CONSTRAINT dhis2_orgunits_pkey PRIMARY KEY (id)
+);
+
+ALTER TABLE namibia_prod.dhis2_orgunits
+    OWNER to postgres;
