@@ -8,3 +8,4 @@ A table populated by the above function which contains the DHIS2 json and is que
 Reveal Superset relies on a materialized view to provide transformed data to the frontend and api. These data are pushed into the data warehouse as raw json events from OpenSRP by Nifi. A materialized view is created from the parsed json and is refreshed according to a specified schedule. The json documents are flattened into a tabular format using [postgres json notation](https://www.postgresql.org/docs/12/functions-json.html) .
 
 ## Setup
+[sql](./sql/install_script.sql)
