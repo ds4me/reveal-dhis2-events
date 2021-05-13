@@ -52,9 +52,9 @@ Links below are to the DHIS2 demo environment. Please replace the domain and uid
 
 1. Get the [program metadata]( [https://play.dhis2.org/2.33.8/api/programs](https://play.dhis2.org/2.33.8/api/programs)) and find the program that you would like to populate. The Information Campaign has been used as an example. 
 
-2. Get the [program stage metadata]([https://play.dhis2.org/2.33.8/api/](https://play.dhis2.org/2.33.8/api/programs)[programStages](https://tland.hispmoz.org/namb/api/programStages)) and find the program stage that you will be using
+2. Get the [program stage metadata]([https://play.dhis2.org/2.33.8/api/programStages](https://play.dhis2.org/2.33.8/api/programStages) and find the program stage that you will be using
 
-3. Get the metadata for that program from [https://play.dhis2.org/2.33.8/api/programs/q04UBOqq3rp](https://play.dhis2.org/2.32.7/api/programs/q04UBOqq3rp)  and record the categoryCombo id and the program stage id that you will be using
+3. Get the metadata for that program from [https://play.dhis2.org/2.33.8/api/programs/q04UBOqq3rp](https://play.dhis2.org/2.33.8/api/programs/q04UBOqq3rp)  and record the categoryCombo id and the program stage id that you will be using
 
 4. Download a file of the data elements for the program stage from [https://play.dhis2.org/2.33.8/api/programStages/pSllsjpfLH2.xml?fields=programStageDataElements[dataElement[id,displayName]]&pageSize=10000](https://play.dhis2.org/2.33.8/api/programStages/pSllsjpfLH2.xml?fields=programStageDataElements[dataElement[id,displayName]]&pageSize=10000])
 
