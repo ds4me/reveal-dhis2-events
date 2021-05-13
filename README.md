@@ -56,9 +56,9 @@ Links below are to the DHIS2 demo environment. Please replace the domain and uid
 
 3. Get the metadata for that program from [https://play.dhis2.org/2.32.7/api/programs](https://play.dhis2.org/2.32.7/api/programs)/q04UBOqq3rp   and record the categoryCombo id and the program stage id that you will be using
 
-4. Download a file of the data elements for the program stage from https://play.dhis2.org/2.32.7/api/programStages/pSllsjpfLH2[.xml?fields=programStageDataElements[dataElement[id,displayName]]&pageSize=10000](https://tland.hispmoz.org/namb/api/programStages/TyCA5rQedpr?fields=programStageDataElements[dataElement[id,displayName]]&pageSize=10000)
+4. Download a file of the data elements for the program stage from https://play.dhis2.org/2.32.7/api/programStages/pSllsjpfLH2[.xml?fields=programStageDataElements[dataElement[id,displayName]]&pageSize=10000](https://tland.hispmoz.org/namb/api/programStages/TyCA5rQedpr?fields=programStageDataElements[dataElement[id,displayName]]&pageSize=10000])
 
-5. Download a csv of the category option combinations [https://play.dhis2.org/2.35.1/api/categoryCombos/bjDvmb4bfuf.csv?fields=categoryOptionCombos[id,displayName](https://play.dhis2.org/2.35.1/api/categoryCombos/bjDvmb4bfuf.csv?fields=categoryOptionCombos[id,displayName)] using the categoryCombo id from the program
+5. Download a csv of the category option combinations [https://play.dhis2.org/2.35.1/api/categoryCombos/bjDvmb4bfuf.csv?fields=categoryOptionCombos[id,displayName](https://play.dhis2.org/2.35.1/api/categoryCombos/bjDvmb4bfuf.csv?fields=categoryOptionCombos[id,displayName]) using the categoryCombo id from the program
 
 6. Download a csv of the organisation units for the program from [https://play.dhis2.org/2.35.1/api/programs/q04UBOqq3rp.csv?fields=organisationUnits[id,displayName]&pageSize=10000](https://play.dhis2.org/2.35.1/api/programs/q04UBOqq3rp.csv?fields=organisationUnits[id,displayName]&pageSize=10000)
 
@@ -147,6 +147,9 @@ Links below are to the DHIS2 demo environment. Please replace the domain and uid
 1. Changes to DHIS2 data elements and data element data types will require a fresh mapping of DHIS2 and Reveal element
 
 2. Significant effort to map Reveal fields to DHIS2 fields (data elements, organisation units etc) is needed when setting up the integration
+
+3. There needs to be a direct connection to the postgres database available - this can be challenging in terms of networking when a private network is in use
+
 
 **Next Steps**
 
